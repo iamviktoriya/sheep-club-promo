@@ -1,0 +1,856 @@
+.house{
+    width: 100%;
+    height: 285vw;
+    display: block;
+    position: relative;
+    background-color: #B9C1FF;
+    overflow: hidden;
+}
+.texthouse p{
+    width: 48.33vw;
+    height: 6.46vw;
+    margin-top: 14vw;
+    margin-left: 5.49vw;
+    font-size: 1.67vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4B4B4B;
+    z-index: 20;
+}
+.texthouse{
+    width: 48.33vw;
+    height: 6.46vw;
+}
+
+/* первый блок */
+.housefirstblock{
+    width: 100%;
+    height: 91.18vw;
+}
+
+.plashka6 h1{
+    font-size: 2.78vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    margin-top: 3.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.plashka6{
+    width: 35.28vw;
+    height: 11.7vw;
+    top: 7vw;
+    left: 2.5vw;
+    position: absolute;
+    transform: rotate(-5deg);
+    background-image: url(../img/plashka1.svg);
+    background-size: 100%;
+    transition: .6s;
+    z-index: 10;
+}
+.plashka6:hover{
+    transform: rotate(5deg);
+}
+
+.house1{
+    width: 62.36vw;
+    height: 33.61vw;
+    margin-top: 3vw;
+    margin-left: 2.5vw;
+    position: relative;
+}
+.house1  img{
+    width: 100%;
+}
+.house2{
+    width: 30.28vw;
+    height: 35.76vw;
+    top: 8.61vw;
+    left: 67.3vw;
+    position: absolute;
+}
+.house2  img{
+    width: 100%;
+}
+
+.texthouse2{
+    width: 48.33vw;
+    height: 8.46vw;
+    top: 61vw;
+    position: absolute;
+}
+.texthouse2 p{
+    width: 48.33vw;
+    height: 8.46vw;
+    margin-top: 10vw;
+    margin-left: 40vw;
+    font-size: 1.67vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4B4B4B;
+    z-index: 20;
+}
+.plashka7 h1{
+    font-size: 2.78vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    padding: 3.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.plashka7{
+    width: 35.28vw;
+    height: 11.7vw;
+    top: 0vw;
+    left: 62.5vw;
+    position: relative;
+    transform: rotate(5deg);
+    background-image: url(../img/plashka1.svg);
+    background-size: 100%;
+    transition: .6s;
+    z-index: 10;
+}
+.plashka7:hover{
+    transform: rotate(-5deg);
+}
+.house3{
+    width: 62.36vw;
+    height: 33.61vw;
+    top: 82vw;
+    left: 35.4vw;
+    position: absolute;
+}
+.house3  img{
+    width: 100%;
+}
+.house4{
+    width: 30.28vw;
+    height: 35.76vw;
+    top: 0vw;
+    left: 2.5vw;
+    position: relative;
+}
+.house4  img{
+    width: 100%;
+}
+
+/* второй блок зона игр*/
+.housesecondblock{
+    width: 100%;
+    height: 56.18vw;
+}
+.texthouse3{
+    top: 6vw;
+    left: 5.49vw;
+    position: relative;
+}
+.texthouse3 p{
+    width: 48.33vw;
+    height: 6.46vw;
+    font-size: 1.67vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4B4B4B;
+    z-index: 20;
+}
+.plashka8 h1{
+    font-size: 2.78vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    padding: 3.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.plashka8{
+    width: 35.28vw;
+    height: 11.7vw;
+    top: 7vw;
+    left: 2.5vw;
+    position: relative;
+    transform: rotate(-5deg);
+    background-image: url(../img/plashka1.svg);
+    background-size: 100%;
+    transition: .6s;
+    z-index: 10;
+}
+.plashka8:hover{
+    transform: rotate(5deg);
+}
+.house6{
+    width: 62.36vw;
+    height: 33.61vw;
+    top: 9vw;
+    left: 2.5vw;
+    position: relative;
+}
+.house6  img{
+    width: 100%;
+}
+.house5{
+    width: 30.28vw;
+    height: 35.76vw;
+    margin-top: 0vw;
+    margin-left: 67.3vw;
+    position: absolute;
+}
+.house5  img{
+    width: 100%;
+}
+
+/* третий блок зона сна */
+.housethirdblock{
+    width: 100%;
+    height: 110.18vw;
+}
+.texthouse4{
+    width: 48.33vw;
+    height: 8.46vw;
+    top: 6vw;
+    left: 40vw;
+    position: relative;
+}
+.texthouse4 p{
+    width: 48.33vw;
+    height: 8.46vw;
+    font-size: 1.67vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4B4B4B;
+    z-index: 20;
+}
+.plashka9 h1{
+    font-size: 2.78vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    padding: 3.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.plashka9{
+    width: 35.28vw;
+    height: 11.7vw;
+    top: 7vw;
+    left: 62.5vw;
+    position: relative;
+    transform: rotate(5deg);
+    background-image: url(../img/plashka1.svg);
+    background-size: 100%;
+    transition: .6s;
+    z-index: 10;
+}
+.plashka9:hover{
+    transform: rotate(-5deg);
+}
+.house7{
+    width: 30.28vw;
+    height: 33.61vw;
+    margin-top: 0vw;
+    margin-left: 2.5vw;
+    position: absolute;
+}
+.house7 img{
+    width: 100%;
+}
+.house8{
+    width: 30.28vw;
+    height: 35.76vw;
+    top: 9vw;
+    left: 35.3vw;
+    position: relative;
+}
+.house8 img{
+    width: 100%;
+}
+
+/* зона спа */
+.texthouse5{
+    width: 48.33vw;
+    height: 6.46vw;
+    top: 6vw;
+    left: 5.49vw;
+    position: relative;
+}
+.texthouse5 p{
+    width: 48.33vw;
+    height: 6.46vw;
+    font-size: 1.67vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4B4B4B;
+    z-index: 20;
+}
+.plashka10 h1{
+    font-size: 2.78vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    padding: 3.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.plashka10{
+    width: 35.28vw;
+    height: 11.7vw;
+    top: 7vw;
+    left: 2.5vw;
+    position: relative;
+    transform: rotate(-5deg);
+    background-image: url(../img/plashka1.svg);
+    background-size: 100%;
+    transition: .6s;
+    z-index: 10;
+}
+.plashka10:hover{
+    transform: rotate(5deg);
+}
+.house9{
+    width: 62.36vw;
+    height: 33.61vw;
+    top: 9vw;
+    left: 2.5vw;
+    position: relative;
+}
+.house9  img{
+    width: 100%;
+}
+.house10{
+    width: 30.28vw;
+    height: 35.76vw;
+    margin-left: 67.3vw;
+    margin-top: 0vw;
+    position: absolute;
+}
+.house10  img{
+    width: 100%;
+}
+
+
+/* подвал */
+.footerhouse{
+    width: 94.44vw;
+    height: 20.2vw;
+    top: 3vw;
+    left: 3.2vw;
+    overflow: hidden;
+    background-image: url(../img/footerbook.svg);
+    background-size: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footerinfohouse{
+    width: 38vw;
+    height: 11.53vw;
+    margin-left: 4.5vw;
+    margin-top: 3vw;
+}
+.footerinfohouse p{
+    width: 16.60vw;
+    height: 5.42vw;
+    font-size: 1.46vw;
+    color: #8B85FF;
+}
+.footerinfohouse img{
+    width: 16.74vw;
+    height: 2.85vw;
+    margin-top: 3vw;
+}
+.contactshouse{
+    width: 17.57vw;
+    height: 11.53vw;
+    margin-top: 3vw;
+}
+.contactshouse h1{
+    font-size: 2.22vw;
+    color: #8B85FF;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.contactshouse p{
+    width: 14.58vw;
+    height: 7.22vw;
+    font-size: 1.39vw;
+    color: #8B85FF;
+    margin-top: 4vw;
+}
+.letterhouse{
+    width: 26.74vw;
+    height: 11.53vw;
+    margin-left: 2vw;
+    margin-top: 3vw;
+}
+.letterhouse h1{
+    font-size: 2.22vw;
+    color: #8B85FF;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.inputhouse{
+    width: 25.04vw;
+    height: 3.47vw;
+    margin-top: 3vw;
+    padding: 0.2vw 0.2vw 0.2vw 1.2vw;
+    background: #B9C1FF;
+    border-radius: 0.69vw;
+    border: none;
+    box-shadow: 6px 6px 10px #8B85FF;
+    font-size: 0.97vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B85FF;
+    outline-color: #8B85FF;
+}
+
+/* адаптив */
+@media screen and (max-width: 414px){
+    .house{
+        width: 100%;
+        height: 796vw;
+        display: block;
+        position: relative;
+        background-color: #B9C1FF;
+        overflow: hidden;
+    }
+    .housefirstblock{
+        width: 100%;
+        height:  394.18vw;
+    }
+   
+    .plashka6 h1{
+        font-size: 4.78vw;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #8B85FF;
+        margin-top: 3.5vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        stroke: #8B85FF;
+        stroke-width: 0.15vw;
+    }
+    .plashka6{
+        width: 45.28vw;
+        height: 14.7vw;
+        top: 10vw;
+        left: 2.5vw;
+        position: absolute;
+        transform: rotate(-5deg);
+        background-image: url(../img/plashka1.svg);
+        background-size: 100%;
+        transition: .6s;
+        z-index: 10;
+    }
+
+    .texthouse p{
+        width: 75.36vw;
+        height: 26.09vw;
+        margin-top: 17vw;
+        margin-left: 5.49vw;
+        font-size: 3.38vw;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #4B4B4B;
+        z-index: 20;
+    }
+    .texthouse{
+        width: 75.36vw;
+        height: 20.09vw;
+    }
+
+    .house1{
+        width: 94.2vw;
+        height: 53.2vw;
+        margin-top: 3vw;
+        margin-left: 2.5vw;
+        position: relative;
+    }
+    .house1  img{
+        width: 100%;
+    }
+    .house2{
+        width: 97.2vw;
+        height: 96.62vw;
+        top: 0.61vw;
+        left: 2.5vw;
+        position: relative;
+    }
+    
+    .texthouse2{
+        width: 75.36vw;
+        height: 26.09vw;
+        top: 1vw;
+        position: relative;
+    }
+    .texthouse2 p{
+        width: 75.36vw;
+        height: 26.09vw;
+        margin-top: 28vw;
+        margin-left: 5.49vw;
+        font-size: 3.38vw;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #4B4B4B;
+        z-index: 20;
+    }
+
+    .plashka7 h1{
+        font-size: 4.78vw;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #8B85FF;
+        padding: 3.5vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        stroke: #8B85FF;
+        stroke-width: 0.15vw;
+    }
+    .plashka7{
+        width: 45.28vw;
+        height: 14.7vw;
+        top: 15vw;
+        left: 53.5vw;
+        position: relative;
+        transform: rotate(5deg);
+        background-image: url(../img/plashka1.svg);
+        background-size: 100%;
+        transition: .6s;
+        z-index: 10;
+    }
+
+    .house3{
+        width: 92.2vw;
+        height: 53.2vw;
+        top: 3vw;
+        left: 3.5vw;
+        position: relative;
+    }
+    .house4{
+        width: 94.2vw;
+        height: 96.62vw;
+        top: 15.61vw;
+        left: 2.5vw;
+        position: relative;
+    }
+
+/* второй блок зона игр*/
+.housesecondblock{
+    width: 100%;
+    height: 94.18vw;
+}
+.texthouse3{
+    width: 94.2vw;
+        height: 22.2vw;
+        margin-top: 0vw;
+        margin-left: 0vw;
+        position: relative;
+}
+.texthouse3 p{
+        width: 86.36vw;
+        height: 26.09vw;
+        margin-top: 0vw;
+        margin-left: 0vw;
+        font-size: 3.38vw;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #4B4B4B;
+        z-index: 20;
+}
+.plashka8 h1{
+    font-size: 4.78vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    margin-top: 0vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.plashka8{
+    width: 45.28vw;
+    height: 14.7vw;
+    top: 3vw;
+    left: 2.5vw;
+    position: relative;
+    transform: rotate(-5deg);
+    background-image: url(../img/plashka1.svg);
+    background-size: 100%;
+    transition: .6s;
+    z-index: 10;
+}
+.house6{
+    width: 94.2vw;
+    height: 53.2vw;
+    top: 0vw;
+    left: 2.5vw;
+    position: relative;
+}
+
+.house5{
+    display: none;
+    width: 30.28vw;
+    height: 35.76vw;
+    margin-top: 0vw;
+    margin-left: 67.3vw;
+    position: absolute;
+}
+
+.housethirdblock{
+    width: 100%;
+    height: 276vw;
+}
+.texthouse4{
+    width: 94.2vw;
+    height: 22.2vw;
+    top: -2vw;
+    left: 5.5vw;
+    position: relative;
+}
+.texthouse4 p{
+    width: 83.36vw;
+        height: 26.09vw;
+        margin-top: 0vw;
+        margin-left: 0vw;
+        font-size: 3.38vw;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #4B4B4B;
+        z-index: 20;
+}
+.plashka9 h1{
+    font-size: 4.78vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    padding: 3.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.plashka9{
+    width: 45.28vw;
+    height: 14.7vw;
+    top: -2vw;
+    left: 53.5vw;
+    position: relative;
+    transform: rotate(5deg);
+    background-image: url(../img/plashka1.svg);
+    background-size: 100%;
+    transition: .6s;
+    z-index: 10;
+}
+.house7{
+    display: none;
+    width: 94.2vw;
+    height: 96.62vw;
+    top: 15.61vw;
+    left: 2.5vw;
+    position: relative;
+}
+.house8{
+    width: 94.2vw;
+    height: 96.62vw;
+    top: 0vw;
+    left: 2.5vw;
+    position: relative;
+}
+
+.texthouse5{
+    width: 94.2vw;
+        height: 22.2vw;
+        margin-top: 0vw;
+        margin-left: 0vw;
+        position: relative;
+}
+.texthouse5 p{
+        width: 86.36vw;
+        height: 26.09vw;
+        margin-top: 0vw;
+        margin-left: 0vw;
+        font-size: 3.38vw;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #4B4B4B;
+        z-index: 20;
+}
+.plashka10 h1{
+    font-size: 4.78vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    margin-top: 0vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.plashka10{
+    width: 45.28vw;
+    height: 14.7vw;
+    top: 3vw;
+    left: 2.5vw;
+    position: relative;
+    transform: rotate(-5deg);
+    background-image: url(../img/plashka1.svg);
+    background-size: 100%;
+    transition: .6s;
+    z-index: 10;
+}
+.house9{
+    display: none;
+    width: 94.2vw;
+    height: 53.2vw;
+    top: 0vw;
+    left: 2.5vw;
+    position: relative;
+}
+
+.house10{
+    width: 94.2vw;
+    height: 96.62vw;
+    top: 0vw;
+    left: 2.5vw;
+    margin-left: 0vw;
+    position: relative;
+}
+
+
+/* подвал */
+.footerhouse{
+    width: 94.44vw;
+    height: 115.13vw;
+    top: 0vw;
+    left: 3.2vw;
+    overflow: hidden;
+    background-image: url(../img/footerbook2.svg);
+    background-size: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.footerinfohouse{
+    width: 70.53vw;
+    height: 30.43vw;
+    margin-left: 8vw;
+    margin-top: 8vw;
+}
+.footerinfohouse p{
+    width: 43.96vw;
+    height: 14.49vw;
+    font-size: 4.35vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B85FF;
+}
+.footerinfohouse img{
+    width: 44.44vw;
+    height: 7.49vw;
+    margin-top: 3vw;
+}
+.contactshouse{
+    width: 46.62vw;
+    height: 30.43vw;
+    margin-left: 8vw;
+    margin-top: 5vw;
+}
+.contactshouse h1{
+    font-size: 5.80vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.contactshouse p{
+    width: 38.65vw;
+    height: 19.32vw;
+    font-size: 3.62vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B85FF;
+    margin-top: 4vw;
+}
+.letterhouse{
+    width: 70.53vw;
+    height: 30.43vw;
+    margin-left: 0vw;
+    margin-left: 8vw;
+    margin-top: 5vw;
+}
+.letterhouse h1{
+    font-size: 5.80vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.inputhouse{
+    width: 69.08vw;
+    height: 9.18vw;
+    margin-top: 3vw;
+    padding: 0.2vw 0.2vw 0.2vw 1.2vw;
+    background: #B9C1FF;
+    border-radius: 1.69vw;
+    border: none;
+    box-shadow: 4px 5px 10px #8B85FF;
+    font-size: 2.66vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B85FF;
+    outline-color: #8B85FF;
+}
+    
+}

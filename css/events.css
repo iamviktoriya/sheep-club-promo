@@ -1,0 +1,514 @@
+/* верхнее меню */
+.menu{
+    width: 100%;
+    height: 4vw;
+    position: relative;
+    background-color: #ffffff;
+}
+.menu img{
+    width: 16.74vw;
+    height: 2.85vw;
+    left: 41.60vw;
+    top: 0.6vw;
+    position: absolute;
+}
+.burger1{
+    width: 2.78vw;
+    height: 2.01vw;
+    position: relative;
+    left: 2.50vw;
+    top: 1.08vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.burger{
+    width: 2.78vw;
+    height: 0.21vw;
+    position: relative;
+    background-color: #FF71A0;
+    border-radius: 5vw;
+}
+
+.plashka5 h1{
+    font-size: 2.78vw;
+    color: #FF71A0;
+    margin-top: 3.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #FF71A0;
+    stroke-width: 0.15vw;
+}
+.plashka5{
+    width: 35.28vw;
+    height: 11.7vw;
+    top: 3vw;
+    left: 2.5vw;
+    position: absolute;
+    transform: rotate(-5deg);
+    background-image: url(../img/plashka2.svg);
+    background-size: 100%;
+    transition: .6s;
+}
+.plashka5:hover{
+    transform: rotate(5deg);
+}
+
+/* body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: #FFDCE8;
+} */
+
+
+/* слайдер */
+.events{
+    width: 100%;
+    height: 59.6vw;
+    display: block;
+    position: relative;
+    background-color: #FFDCE8;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    height: 41.67vw;
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+.container span{
+    height: 50.67vw;
+}
+
+.imgContainer{
+    width: 100%;
+    height: 41.67vw;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.slide_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2.08vw 0 2.08vw;
+}
+
+.slide_div img{
+    position: relative;
+    height: 33.82vw;
+    width: 22.57vw;
+    filter: blur(4px);
+    transition: 0.7s;
+}
+
+.button{
+    position: absolute;
+    height: 33.82vw;
+    width: 22.57vw;
+    transition: 0.7s;
+    border-radius: 20px;
+}
+
+.button:hover{
+    filter: blur(1px);
+}
+
+#slider1:target ~ .imgContainer #img1,
+#slider1:target ~ .imgContainer #button1{
+    height: 41.67vw;
+    width: 27.78vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider2:target ~ .imgContainer #img2,
+#slider2:target ~ .imgContainer #button2{
+    height: 41.67vw;
+    width: 27.78vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider3:target ~ .imgContainer #img3,
+#slider3:target ~ .imgContainer #button3{
+    height: 41.67vw;
+    width: 27.78vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider4:target ~ .imgContainer #img4,
+#slider4:target ~ .imgContainer #button4{
+    height: 41.67vw;
+    width: 27.78vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider5:target ~ .imgContainer #img5,
+#slider5:target ~ .imgContainer #button5{
+    height: 41.67vw;
+    width: 27.78vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider6:target ~ .imgContainer #img6,
+#slider6:target ~ .imgContainer #button6{
+    height: 41.67vw;
+    width: 27.78vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider7:target ~ .imgContainer #img7,
+#slider7:target ~ .imgContainer #button7{
+    height: 41.67vw;
+    width: 27.78vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider8:target ~ .imgContainer #img8,
+#slider8:target ~ .imgContainer #button8{
+    height: 41.67vw;
+    width: 27.78vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider9:target ~ .imgContainer #img9,
+#slider9:target ~ .imgContainer #button9{
+    height: 41.67vw;
+    width: 27.78vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider1:target ~ .imgContainer{
+    left: 80%;
+}
+#slider2:target ~ .imgContainer{
+    left: 60%;
+}
+#slider3:target ~ .imgContainer{
+    left: 40%;
+}
+#slider4:target ~ .imgContainer{
+    left: 20%;
+}
+#slider5:target ~ .imgContainer{
+    left: 0%;
+}
+#slider6:target ~ .imgContainer{
+    left: -20%;
+}
+#slider7:target ~ .imgContainer{
+    left: -40%;
+}
+#slider8:target ~ .imgContainer{
+    left: -60%;
+}
+#slider9:target ~ .imgContainer{
+    left: -80%;
+}
+
+/* подвал */
+.footerblock{
+    width: 100%;
+    height: 20.2vw;
+    display: block;
+    background-color: #FFDCE8;
+}
+.footer3{
+    width: 94.44vw;
+    height: 20.2vw;
+    left: 3.2vw;
+    top: 0vw;
+    position: relative;
+    background-image: url(../img/footer.svg);
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* адаптив */
+@media screen and (max-width: 414px){
+    .plashka5 h1{
+        font-size: 4.78vw;
+        color: #FF71A0;
+        margin-top: 3.5vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        stroke: #FF71A0;
+        stroke-width: 0.15vw;
+    }
+    .plashka5{
+        width: 45.28vw;
+        height: 14.7vw;
+        top: 3vw;
+        left: 2.5vw;
+        position: absolute;
+        transform: rotate(-5deg);
+        background-image: url(../img/plashka2.svg);
+        background-size: 100%;
+        transition: .6s;
+    }
+    /* подвал */
+    .footerblock{
+        width: 100%;
+        height: 118.2vw;
+        display: block;
+        background-color: #FFDCE8;
+    }
+    .footer3{
+        width: 94.44vw;
+        height: 115.13vw;
+        top: 0vw;
+        left: 3.2vw;
+        position: relative;
+        background-image: url(../img/footer2.svg);
+        background-size: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    /* слайдер */
+    .events{
+        width: 100%;
+        height: 105.6vw;
+        display: block;
+        position: relative;
+        background-color: #FFDCE8;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    .container{
+        width: 100%;
+        height: 56.67vw;
+        margin-top: 10vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        overflow: hidden;
+    }
+    .container span{
+        height: 50.67vw;
+    }
+    
+    .imgContainer{
+        width: 100%;
+        height: 56.67vw;
+        position: absolute;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+    }
+    
+    .slide_div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 2.08vw 0 2.08vw;
+    }
+    
+    .slide_div img{
+        position: relative;
+        height: 53.82vw;
+        width: 40.57vw;
+        filter: blur(4px);
+        transition: 0.7s;
+    }
+    
+    .button{
+        position: absolute;
+        height: 33.82vw;
+        width: 22.57vw;
+        transition: 0.7s;
+        border-radius: 20px;
+    }
+
+#slider1:target ~ .imgContainer #img1,
+#slider1:target ~ .imgContainer #button1{
+    height: 80.82vw;
+    width: 59.57vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider2:target ~ .imgContainer #img2,
+#slider2:target ~ .imgContainer #button2{
+    height: 80.82vw;
+    width: 59.57vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider3:target ~ .imgContainer #img3,
+#slider3:target ~ .imgContainer #button3{
+    height: 80.82vw;
+    width: 59.57vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider4:target ~ .imgContainer #img4,
+#slider4:target ~ .imgContainer #button4{
+    height: 80.82vw;
+    width: 59.57vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider5:target ~ .imgContainer #img5,
+#slider5:target ~ .imgContainer #button5{
+    height: 80.82vw;
+    width: 59.57vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider6:target ~ .imgContainer #img6,
+#slider6:target ~ .imgContainer #button6{
+    height: 80.82vw;
+    width: 59.57vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider7:target ~ .imgContainer #img7,
+#slider7:target ~ .imgContainer #button7{
+    height: 80.82vw;
+    width: 59.57vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider8:target ~ .imgContainer #img8,
+#slider8:target ~ .imgContainer #button8{
+    height: 80.82vw;
+    width: 59.57vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+#slider9:target ~ .imgContainer #img9,
+#slider9:target ~ .imgContainer #button9{
+    height: 80.82vw;
+    width: 59.57vw;
+    background-color: transparent;
+    filter: blur(0px);
+}
+
+}
+
+/* страница 404 */
+.block404{
+    width: 94.44vw;
+    height: 45.43vw;
+    position: relative;
+    top: 1vw;
+    left: 3.5vw;
+    background-image: url(../img/block404_1.svg);
+    background-size: 100%;
+    display: flex;
+}
+
+.menu_404 {
+    width: 16.74vw;
+    height: 2.85vw;
+    left: 41.60vw;
+    top: 0.5vw;
+    position: relative;
+}
+.text_404{
+    font-size: 20.49vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    stroke: #8B85FF;
+    stroke-width: 0.07vw;
+    position: absolute;
+    top: 8vw;
+    left: 31vw;
+}
+.text2_404{
+    width: 35.90vw;
+    font-size: 2.78vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4B4B4B;
+    position: absolute;
+    top: 30vw;
+    left: 32vw;
+}
+
+/* адаптив */
+@media screen and (max-width: 414px){
+    .block404{
+        width: 94.44vw;
+        height: 155.43vw;
+        position: relative;
+        top: 1vw;
+        left: 3.5vw;
+        background-image: url(../img/block404_2.svg);
+        background-size: 100%;
+        display: flex;
+    }
+    
+    .menu_404 {
+        width: 22.74vw;
+        height: 5.85vw;
+        left: 41.60vw;
+        top: 0.5vw;
+        position: relative;
+    }
+    .text_404{
+        font-size: 37.92vw;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #8B85FF;
+        stroke: #8B85FF;
+        stroke-width: 0.07vw;
+        position: absolute;
+        top: 29vw;
+        left: 15vw;
+    }
+    .text2_404{
+        width: 62vw;
+        font-size: 5.07vw;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #4B4B4B;
+        position: absolute;
+        top: 68vw;
+        left: 18vw;
+    }
+}

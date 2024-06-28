@@ -1,0 +1,392 @@
+@media screen and (max-width: 414px){
+    /* первый блок */
+.firstblock{
+    width: 100%;
+    height: 153.86vw;
+    display: block;
+    position: relative;
+    background-color: #FFDCE8;
+}
+.biglogo{
+    width: 76.13vw;
+    height: 55.85vw;
+}
+.biglogo img {
+    width: 76.13vw;
+    height: 55.85vw;
+    left: 13.75vw;
+    top: 43vw;
+    position: relative;
+    animation: fly 5s ease-in-out infinite;
+}
+.cupmini {
+    width: 25.42vw;
+    height: 20.92vw;
+    top: 18.06vw;
+    left: 30vw;
+    transform: rotate(-3deg);
+    animation: fly2 8s ease-in-out infinite;
+}
+.housemini {
+    width: 33.33vw;
+    height: 23.81vw;
+    top: 28.71vw;
+    left: 0vw;
+    transform: rotate(14deg);
+    animation: fly3 8s ease-in-out infinite;
+}
+.bagmini {
+    width: 20.69vw;
+    height: 31.44vw;
+    top: 97vw;
+    left: 68vw;
+    transform: rotate(-32deg);
+    animation: fly4 8s ease-in-out infinite;
+}
+.nym {
+    width: 30vw;
+    height: 15.33vw;
+    top: 102.06vw;
+    left: 30vw;
+    transform: rotate(-21deg);
+    animation: fly4 8s ease-in-out infinite;
+}
+.postermini {
+    width: 20.19vw;
+    height: 24.36vw;
+    top: 13.5vw;
+    left: 58.68vw;
+    transform: rotate(-18deg);
+    animation: fly4 8s ease-in-out infinite;
+}
+.sheep {
+    width: 31.36vw;
+    height: 31.36vw;
+    top: 31.67vw;
+    left: 65vw;
+    transform: rotate(27deg);
+    animation: fly2 8s ease-in-out infinite;
+}
+.vebposter1 img {
+    top: 102vw;
+    left: 1vw;
+    width: 100%;
+    transform: rotate(-9deg);
+    animation: fly3 8s ease-in-out infinite;
+}
+.vebposter1 img {
+    width: 22.6vw;
+    height: 23.6vw;
+}
+.vebposter2 img {
+    top: 116vw;
+    left: 42vw;
+    width: 100%;
+    transform: rotate(-9deg);
+    animation: fly4 8s ease-in-out infinite;
+}
+.vebposter2 img {
+    width: 22.83vw;
+    height: 24.46vw;
+}
+
+.secondblock {
+    width: 100%;
+    height: 124vw;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    z-index: 20;
+    background-color: #C8CEFF;
+}
+.onas{
+    width: 100%;
+    height: 27.69vw;
+}
+.bookmini{
+    display: none;
+    top: 32vw;
+    left: 10vw;
+    width: 22.43vw;
+    height: 27.99vw;
+    position: absolute;
+}
+.plashka1 h1{
+    font-size: 3.62vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    margin-top: 4.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.plashka1{
+    width: 46.38vw;
+    height: 15.04vw;
+    top: 30vw;
+    left: 52.5vw;
+    position: absolute;
+    transform: rotate(5deg);
+    background-image: url(../img/plashka1.svg);
+    background-size: 100%;
+    transition: .6s;
+}
+.bookblock p{
+    width: 73.46vw;
+    height: 16.91vw;
+    margin-top: 16vw;
+    margin-left: 16vw;
+    font-size: 2.66vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4B4B4B;
+    z-index: 20;
+}
+.arrow{
+    display: none;
+    width: 14.17vw;
+    height: 6.52vw;
+    top: 51vw;
+    left: 80.5vw;
+    position: absolute;
+    background-image: url(../img/arrow\ 1.svg);
+    background-size: 100%;
+    transition: .5s;
+}
+.flowmini2 {
+    display: none;
+    width: 7.36vw;
+    height: 7.36vw;
+    top: 38vw;
+    left: 37vw;
+    position: absolute;
+    z-index: 1;
+}
+.plashka2 h1{
+    font-size: 3.62vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    margin-top: 4.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.plashka2{
+    width: 46.38vw;
+    height: 15.04vw;
+    top: 65vw;
+    left: 3.5vw;
+    position: absolute;
+    transform: rotate(-5deg);
+    background-image: url(../img/plashka1.svg);
+    background-size: 100%;
+    transition: .6s;
+}
+.plashka2:hover{
+    transform: rotate(5deg);
+}
+.cardreviews {
+    width: 80.22vw;
+    height: 39.03vw;
+    margin-top: 14vw;
+    margin-left: 11vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    cursor: pointer;
+    position: absolute;
+    transform: scale(1.2);
+}
+.plashka3 h1{
+    font-size: 3.62vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    margin-top: 4.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #FF71A0;
+    stroke-width: 0.15vw;
+}
+.plashka3{
+    width: 46.38vw;
+    height: 15.04vw;
+    top: 3vw;
+    left: 52.5vw;
+    position: absolute;
+    transform: rotate(5deg);
+    background-image: url(../img/plashka2.svg);
+    background-size: 100%;
+    transition: .6s;
+}
+.thirdblock {
+    width: 100%;
+    height: 193vw;
+    position: relative;
+    overflow: hidden;
+    background: rgb(255, 220, 232);
+    background: linear-gradient(180deg, rgba(255, 220, 232, 1) 0%, rgba(254, 170, 198, 1) 100%);
+}
+.shopline{
+    width: 77.88vw;
+    height: 37.15vw;
+    top: 9vw;
+    left: -2.8vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product1_main{
+    display: none;
+    width: 30.28vw;
+    height: 31vw;
+    top: 3vw;
+    position: relative;
+    cursor: pointer;
+}
+.product2_main{
+    width: 30.28vw;
+    height: 31vw;
+    top: 0vw;
+    position: relative;
+    cursor: pointer;
+    transform: scale(0.5);
+}
+.product3_main{
+    width: 30.28vw;
+    height: 31vw;
+    top: 3vw;
+    position: relative;
+    cursor: pointer;
+    transform: scale(0.5);
+}
+
+/* подвал */
+.footer{
+    width: 94.44vw;
+    height: 115.13vw;
+    top: 76vw;
+    left: 3.2vw;
+    overflow: hidden;
+    background-image: url(../img/footer2.svg);
+    background-size: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.footerinfo{
+    width: 70.53vw;
+    height: 30.43vw;
+    margin-left: 8vw;
+    margin-top: 8vw;
+}
+.footerinfo p{
+    width: 43.96vw;
+    height: 14.49vw;
+    font-size: 4.35vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FF71A0;
+}
+.footerinfo img{
+    width: 44.44vw;
+    height: 7.49vw;
+    margin-top: 3vw;
+}
+.contacts{
+    width: 46.62vw;
+    height: 30.43vw;
+    margin-left: 8vw;
+    margin-top: 5vw;
+}
+.contacts h1{
+    font-size: 5.80vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    stroke: #FF71A0;
+    stroke-width: 0.15vw;
+}
+.contacts p{
+    width: 38.65vw;
+    height: 19.32vw;
+    font-size: 3.62vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FF71A0;
+    margin-top: 4vw;
+}
+.letter{
+    width: 70.53vw;
+    height: 30.43vw;
+    margin-left: 0vw;
+    margin-left: 8vw;
+    margin-top: 5vw;
+}
+.letter h1{
+    font-size: 5.80vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    stroke: #FF71A0;
+    stroke-width: 0.15vw;
+}
+.input{
+    width: 69.08vw;
+    height: 9.18vw;
+    margin-top: 3vw;
+    padding: 0.2vw 0.2vw 0.2vw 1.2vw;
+    background: #FFDCE8;
+    border-radius: 1.69vw;
+    border: none;
+    box-shadow: 4px 5px 10px #FF71A0;
+    font-size: 2.66vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FF71A0;
+    outline-color: #FF71A0;
+}
+
+
+.positioning { 
+    display: none;
+    position: relative;
+}
+#canvas-target{
+    display: none;
+    width: 0vw;
+    overflow-x: hidden;
+    display: block;
+    margin-left: -2vw;
+    margin-right: -2vw;
+    padding: 0vw;
+}
+.a-image{
+    display: none;
+}
+.positioning img{
+    display: none;
+    width: 0%;
+}
+
+}

@@ -1,0 +1,542 @@
+.body{
+    background-color: #FFDCE8;
+}
+.shop{
+    width: 100%;
+    height: 151vw;
+    display: block;
+    position: relative;
+    background-color: #FFDCE8;
+}
+/* верхнее меню */
+.menu{
+    width: 100%;
+    height: 4vw;
+    position: relative;
+    background-color: #ffffff;
+}
+.menu img{
+    width: 16.74vw;
+    height: 2.85vw;
+    left: 41.60vw;
+    top: 0.6vw;
+    position: absolute;
+}
+.burger1{
+    width: 2.78vw;
+    height: 2.01vw;
+    position: relative;
+    left: 2.50vw;
+    top: 1.08vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.burger{
+    width: 2.78vw;
+    height: 0.21vw;
+    position: relative;
+    background-color: #FF71A0;
+    border-radius: 5vw;
+}
+
+.plashka4 h1{
+    font-size: 2.78vw;
+    color: #FF71A0;
+    margin-top: 3.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #FF71A0;
+    stroke-width: 0.15vw;
+}
+.plashka4{
+    width: 35.28vw;
+    height: 11.7vw;
+    top: 7vw;
+    left: 62.5vw;
+    position: absolute;
+    transform: rotate(5deg);
+    background-image: url(../img/plashka2.svg);
+    background-size: 100%;
+    transition: .6s;
+}
+.plashka4:hover{
+    transform: rotate(-5deg);
+}
+
+/* карточки товаров */
+.shopcards{
+    width: 94.44vw;
+    height: 115.63vw;
+    top: 12vw;
+    left: 3.2vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* ловец снов */
+.product1{
+    width: 30.28vw;
+    height: 31vw;
+    top: 3vw;
+    position: relative;
+    cursor: pointer;
+}
+.product1back h1{
+    font-size: 2.22vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    margin-top: 3.5vw;
+    stroke: #FF71A0;
+    stroke-width: 0.15vw;
+}
+.product1text p{
+    width: 19.35vw;
+    height: 6.46vw;
+    margin-top: 1vw;
+    font-size: 1.46vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FF71A0;
+}
+.product1text{
+    width: 20.35vw;
+    height: 15vw;
+    margin-top: 6vw;
+    margin-left: 4vw;
+}
+/* кнопка заказать */
+.productplashka{
+    width: 14.17vw;
+    height: 6.49vw;
+    top: 20vw;
+    left: 12vw;
+    position: absolute;
+    transform: rotate(-8deg);
+    background-image: url(../img/product\ plashka.svg);
+    background-size: 100%;
+}
+.product1back h2{
+    font-size: 1.94vw;
+    margin-top: 0vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+}
+.productplashka h2{
+    font-size: 1.94vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    margin-top: 1.2vw;
+    margin-left: 2.3vw;
+}
+.product1front, .product2front, .product3front, .product4front, .product5front, .product6front, .product7front, .product8front, .product9front{
+    width: 30.28vw;
+    height: 31vw;
+    top: 0vw;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+    animation: turn 1s infinite;
+}
+.product1front img{
+    width: 100%;
+}
+.product1back{
+    width: 30.28vw;
+    height: 32vw;
+    top: 0vw;
+    position: absolute;
+    background-image: url(../img/product\ back.svg);
+    background-size: 100%;
+    backface-visibility: hidden;
+    transition: 1s;
+    transform: rotateY(180deg);
+}
+.product1:hover .product1front {transform: rotateY(180deg);}
+.product1:hover .product1back {transform: rotateY(360deg);}
+/* вторая карточка сумка */
+.product2{
+    width: 30.28vw;
+    height: 31vw;
+    top: 0vw;
+    position: relative;
+    cursor: pointer;
+}
+.product2front img{
+    width: 100%;
+}
+.product2:hover .product2front {transform: rotateY(180deg);}
+.product2:hover .product1back {transform: rotateY(360deg);}
+
+/* третья карточка кружки*/
+.product3{
+    width: 30.28vw;
+    height: 31vw;
+    top: 3vw;
+    position: relative;
+    cursor: pointer;
+}
+.product3front img{
+    width: 100%;
+}
+.product3:hover .product3front {transform: rotateY(180deg);}
+.product3:hover .product1back {transform: rotateY(360deg);}
+/* четвертая карточка чай*/
+.product4{
+    width: 30.28vw;
+    height: 31vw;
+    top: 0vw;
+    position: relative;
+    cursor: pointer;
+}
+.product4front img{
+    width: 100%;
+}
+.product4:hover .product4front {transform: rotateY(180deg);}
+.product4:hover .product1back {transform: rotateY(360deg);}
+/* пятая карточка блокноты*/
+.product5{
+    width: 30.28vw;
+    height: 31vw;
+    top: 3vw;
+    position: relative;
+    cursor: pointer;
+}
+.product5front img{
+    width: 100%;
+}
+.product5:hover .product5front {transform: rotateY(180deg);}
+.product5:hover .product1back {transform: rotateY(360deg);}
+/* шестая карточка стикеры*/
+.product6{
+    width: 30.28vw;
+    height: 31vw;
+    top: 0vw;
+    position: relative;
+    cursor: pointer;
+}
+.product6front img{
+    width: 100%;
+}
+.product6:hover .product6front {transform: rotateY(180deg);}
+.product6:hover .product1back {transform: rotateY(360deg);}
+/* шестая карточка стикеры*/
+.product7{
+    width: 30.28vw;
+    height: 31vw;
+    top: -3vw;
+    position: relative;
+    cursor: pointer;
+}
+.product7front img{
+    width: 100%;
+}
+.product7:hover .product7front {transform: rotateY(180deg);}
+.product7:hover .product1back {transform: rotateY(360deg);}
+/* шестая карточка стикеры*/
+.product8{
+    width: 30.28vw;
+    height: 31vw;
+    top: 0vw;
+    position: relative;
+    cursor: pointer;
+}
+.product8front img{
+    width: 100%;
+}
+.product8:hover .product8front {transform: rotateY(180deg);}
+.product8:hover .product1back {transform: rotateY(360deg);}
+/* шестая карточка стикеры*/
+.product9{
+    width: 30.28vw;
+    height: 31vw;
+    top: -3vw;
+    position: relative;
+    cursor: pointer;
+}
+.product9front img{
+    width: 100%;
+}
+.product9:hover .product9front {transform: rotateY(180deg);}
+.product9:hover .product1back {transform: rotateY(360deg);}
+/* подвал */
+.footer2{
+    width: 94.44vw;
+    height: 20.2vw;
+    top: 130vw;
+    left: 3.2vw;
+    overflow: hidden;
+    background-image: url(../img/footer.svg);
+    background-size: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* форма */
+.choseproduct{
+    width: 47.36vw;
+    height: 39.03vw;
+    display: none;
+    background-color: #FFDCE8;
+    border-radius: 3.33vw;
+    position: fixed;
+    top: 5vw;
+    left: 26vw;
+}
+.blur {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0vw;
+    left: 0vw;
+    background: rgba(255, 196, 221, 0.3);
+    backdrop-filter: blur(8px);
+  }
+
+.list{
+    width: 35.21vw;
+    height: 19.86vw;
+    left: 9vw;
+    top: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    position: relative;
+}
+.list1{
+    width: 15.14vw;
+    height: 19.86vw;
+}
+.list2{
+    width: 15.90vw;
+    height: 15.63vw;
+}
+.list1, .list2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.list1 label {
+   font-size: 1.46vw;
+   margin-right: 1vw;
+   color: #FF71A0;
+   font-family: "IBM Plex Sans", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+  
+.list2 label {
+  font-size: 1.46vw;
+  margin-right: 2vw;
+  color: #FF71A0;
+  font-family: "IBM Plex Sans", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+.form{
+    width: 35.97vw;
+    font-size: 2.64vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #FF71A0;
+    stroke-width: 0.15vw;
+    margin-top: 6vw;
+    margin-left: 5vw;
+}
+
+.cross, .cross2 {
+    position: relative;
+    width: 1.94vw;
+    height: 1.94vw;
+    background-repeat: no-repeat;
+    background-image: url(../img/backmenu.svg);
+    background-size: 100%;
+    left: 43vw;
+    top: 2vw;
+    z-index: 115;
+}
+.form_a {
+    font-size: 48px;
+    line-height: 48px;
+    text-align: left;
+    margin-top: 39px;
+    margin-left: 0vw;
+    letter-spacing: -0.04em;
+    color: #FF71A0;
+    width: 30vw;
+}
+/* стрелка продолжить */
+.next1{
+    width: 14.17vw;
+    height: 5.42vw;
+    margin-left: 30vw;
+    margin-top: 0vw;
+    position: relative;
+    z-index: 10;
+}
+.next1 img{
+    width: 100%;
+}
+
+.radio-list{
+    width: 15.90vw;
+    /* margin-left: 0vw;
+    margin-top: 0vw; */
+  
+  }
+  .rcustom{
+     position: absolute;
+     z-index: -1;
+     opacity: 0;
+   }
+   /* для элемента label связанного с .custom-radio */
+   .rcustom+label {
+     display: inline-flex;
+     align-items: center;
+     user-select: none;
+   }
+  
+   /* создание в label псевдоэлемента  before со следующими стилями */
+   .rcustom+label::before {
+     content: '';
+     display: inline-block;
+     width: 1em;
+     height: 1em;
+     flex-shrink: 0;
+     flex-grow: 0;
+     border: 0.14vw solid #FF71A0;
+     border-radius: 50%;
+     margin-right: 0.5em;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: 50% 50%;
+   }
+   /* стили при наведении курсора на радио */
+   .rcustom:not(:disabled):not(:checked)+label:hover::before {
+    background-color: #FF71A0;
+    border: 0.14vw solid #FF71A0;
+   }
+   /* стили для активной радиокнопки (при нажатии на неё) */
+  
+   .rcustom:checked+label::before {
+    border-color: #FF71A0;
+    background-color: #FFDCE8;
+    border: 0.14vw solid #FF71A0;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='000000'/%3e%3c/svg%3e");
+   }
+
+   /* вторая часть формы с вводом данных */
+.forma {
+    width: 47.36vw;
+    height: 39.03vw;
+    display: none;
+    background-color: #FFDCE8;
+    border-radius: 3.33vw;
+    position: fixed;
+    top: 5vw;
+    left: 26vw;
+}
+
+.textbut{
+    width: 14.17vw;
+    height: 6.42vw;
+    margin-left: 30vw;
+    margin-top: -1vw;
+    position: relative;
+    transform: rotate(-2deg);
+    background-image: url(../img/product\ plashka.svg);
+    background-size: 100%;
+}
+.textbut h1{
+    font-size: 1.94vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    margin-top: 3.5vw;
+    padding: 1.3vw 2.2vw 0.2vw 2.2vw;
+}
+.form-split {
+    width: 35.97vw;
+    height: 16.46vw;
+    top: 1vw;
+    left: 5.2vw;
+    border-radius: 0.90vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FFDCE8;
+}
+
+input[type='name'],
+input[type="tel"],
+input[type="email"], select {
+  height: 4.86vw;
+  width: 33vw;
+  border: 0.14vw solid #FF71A0;
+  font-size: 17px;
+  line-height: 46px;
+  padding: 0 1.2vw;
+  margin-left: 1.39vw;
+  margin-top: 1vw;
+  outline: none;
+  border-radius: 0.90vw;
+  appearance: none;
+}
+
+input[type='name']:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus {
+  border: 0.14vw solid #FF71A0;
+}
+/* плашка после  отправки данных */
+.forma_after{
+    display: none;
+    width: 47.36vw;
+    height: 15.14vw;
+    z-index: 15;
+    color: #FF71A0;
+    border-radius: 20px;
+    background-image: url(../img/plashkaafterform.svg);
+    background-size: 100%;
+    position: fixed;
+    padding: 1.39vw;
+    top: calc( 50% - 11.5vh);
+    left: calc( 50% - 25vw);
+  }
+  .form_a {
+    width: 40.97vw;
+    font-size: 2.64vw;
+    text-align: center;
+    margin-left: 1.8vw;
+    margin-top: 5vw;
+    letter-spacing: -0.04em;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    position: relative;
+    }

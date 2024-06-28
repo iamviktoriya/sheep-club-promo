@@ -1,0 +1,600 @@
+@media screen and (max-width: 414px){
+
+.shop{
+        width: 100%;
+        height: 1024vw;
+        display: block;
+        position: relative;
+        background-color: #FFDCE8;
+}
+ /* меню */
+.menu{
+        width: 100%;
+        height: 8vw;
+        position: relative;
+        background-color: #ffffff;
+}
+.menu img {
+        width: 19.74vw;
+        height: 5.85vw;
+        left: 41.60vw;
+        top: 1vw;
+        position: absolute;
+}
+.burger1{
+        width: 4.78vw;
+        height: 3.01vw;
+        position: relative;
+        left: 3.5vw;
+        top: 2.2vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+.burger {
+        width: 4.78vw;
+        height: 0.4vw;
+        position: relative;
+        background-color: #FF71A0;
+        border-radius: 5vw;
+}
+.plashka4 {
+        width: 45.28vw;
+        height: 14.7vw;
+        top: 10vw;
+        left: 52.5vw;
+        position: absolute;
+        transform: rotate(5deg);
+        background-image: url(../img/plashka2.svg);
+        background-size: 100%;
+        transition: .6s;
+        z-index: 1;
+}
+.plashka4 h1 {
+        font-size: 4.78vw;
+        color: #FF71A0;
+        margin-top: 3.5vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        stroke: #FF71A0;
+        stroke-width: 0.15vw;
+}
+
+/* карточки в магазине */
+.shopcards {
+    width: 90vw;
+    height: 870vw;
+    top: 18vw;
+    left: 6.2vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+/* ловец снов */
+.product1, .product2, .product3, .product4, .product5, .product6, .product7, .product8, .product9{
+    width: 90vw;
+    height: 96vw;
+    top: 0vw;
+    position: relative;
+    cursor: pointer;
+}
+.product1back h1{
+    font-size: 5.80vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    margin-top: 3.5vw;
+    stroke: #FF71A0;
+    stroke-width: 0.15vw;
+}
+.product1text p{
+    width: 54.83vw;
+    height: 17.39vw;
+    margin-top: 4vw;
+    font-size: 4.35vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FF71A0;
+}
+.product1text{
+    width: 58.83vw;
+    height: 40.58vw;
+    margin-top: 16vw;
+    margin-left: 11vw;
+}
+.product1back h2{
+    font-size: 5.07vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    margin-top: 6vw;
+    font-style: normal;
+    color: #FF71A0;
+    
+}
+.productplashka h2{
+    font-size: 5.07vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    margin-top: 4.2vw;
+    margin-left: 7.3vw;
+}
+.productplashka{
+    width: 40.16vw;
+    height: 18.49vw;
+    top: 63vw;
+    left: 41vw;
+    position: absolute;
+    transform: rotate(-8deg);
+    background-image: url(../img/product\ plashka.svg);
+    background-size: 100%;
+}
+.product1front, .product2front, .product3front, .product4front, .product5front, .product6front, .product7front, .product8front, .product9front{
+    width: 90vw;
+    height: 96vw;
+    top: 0vw;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+    animation: turn 1s infinite;
+}
+.product1front img{
+    width: 100%;
+}
+.product1back{
+    width: 90vw;
+    height: 96vw;
+    top: 0vw;
+    position: absolute;
+    background-image: url(../img/product\ back.svg);
+    background-size: 100%;
+    backface-visibility: hidden;
+    transition: 1s;
+    transform: rotateY(180deg);
+}
+/* вторая карточка сумка */
+.product2{
+    width: 90vw;
+    height: 96vw;
+    top: 0vw;
+    position: relative;
+    cursor: pointer;
+}
+.product2front img{
+    width: 100%;
+}
+/* третья карточка кружки*/
+.product3{
+    width: 90vw;
+    height: 96vw;
+    top: 0vw;
+    position: relative;
+    cursor: pointer;
+}
+.product3front img{
+    width: 100%;
+}
+/* четвертая карточка чай*/
+.product4{
+    width: 90vw;
+    height: 96vw;
+    top: 0vw;
+    position: relative;
+    cursor: pointer;
+}
+.product4front img{
+    width: 100%;
+}
+/* пятая карточка блокноты*/
+.product5{
+    width: 90vw;
+    height: 96vw;
+    top: 0vw;
+    position: relative;
+    cursor: pointer;
+}
+.product5front img{
+    width: 100%;
+}
+/* шестая карточка стикеры*/
+.product6{
+    width: 90vw;
+    height: 96vw;
+    top: 0vw;
+    position: relative;
+    cursor: pointer;
+}
+.product6front img{
+    width: 100%;
+}
+/* седьмая карточка стикеры*/
+.product7{
+    width: 90vw;
+    height: 96vw;
+    top: 0vw;
+    position: relative;
+    cursor: pointer;
+}
+.product7front img{
+    width: 100%;
+}
+/* восьмая карточка стикеры*/
+.product8{
+    width: 90vw;
+    height: 96vw;
+    top: 0vw;
+    position: relative;
+    cursor: pointer;
+}
+.product8front img{
+    width: 100%;
+}
+/* девятая карточка стикеры*/
+.product9{
+    width: 90vw;
+    height: 96vw;
+    top: 0vw;
+    position: relative;
+    cursor: pointer;
+}
+.product9front img{
+    width: 100%;
+}
+
+/* подвал */
+.footer2{
+    width: 94.44vw;
+    height: 115.13vw;
+    top: 905vw;
+    left: 3.2vw;
+    overflow: hidden;
+    background-image: url(../img/footer2.svg);
+    background-size: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.footerinfo{
+    width: 70.53vw;
+    height: 30.43vw;
+    margin-left: 8vw;
+    margin-top: 8vw;
+}
+.footerinfo p{
+    width: 43.96vw;
+    height: 14.49vw;
+    font-size: 4.35vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FF71A0;
+}
+.footerinfo img{
+    width: 44.44vw;
+    height: 7.49vw;
+    margin-top: 3vw;
+}
+.contacts{
+    width: 46.62vw;
+    height: 30.43vw;
+    margin-left: 8vw;
+    margin-top: 5vw;
+}
+.contacts h1{
+    font-size: 5.80vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    stroke: #FF71A0;
+    stroke-width: 0.15vw;
+}
+.contacts p{
+    width: 38.65vw;
+    height: 19.32vw;
+    font-size: 3.62vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FF71A0;
+    margin-top: 4vw;
+}
+.letter{
+    width: 70.53vw;
+    height: 30.43vw;
+    margin-left: 0vw;
+    margin-left: 8vw;
+    margin-top: 5vw;
+}
+.letter h1{
+    font-size: 5.80vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    stroke: #FF71A0;
+    stroke-width: 0.15vw;
+}
+.input{
+    width: 69.08vw;
+    height: 9.18vw;
+    margin-top: 3vw;
+    padding: 0.2vw 0.2vw 0.2vw 1.2vw;
+    background: #FFDCE8;
+    border-radius: 1.69vw;
+    border: none;
+    box-shadow: 4px 5px 10px #FF71A0;
+    font-size: 2.66vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FF71A0;
+    outline-color: #FF71A0;
+}
+
+/* форма */
+.choseproduct{
+    width: 81.88vw;
+    height: 67.39vw;
+    display: none;
+    background-color: #FFDCE8;
+    border-radius: 11.59vw;
+    position: fixed;
+    top: 59vw;
+    left: 9vw;
+}
+.blur {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0vw;
+    left: 0vw;
+    background: rgba(255, 196, 221, 0.3);
+    backdrop-filter: blur(8px);
+  }
+
+.list{
+    width: 60.87vw;
+    height: 34.30vw;
+    left: 14vw;
+    top: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    position: relative;
+}
+.list1{
+    width: 26.33vw;
+    height: 34.30vw;
+}
+.list2{
+    width: 27.54vw;
+    height: 27.05vw;
+}
+.list1, .list2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.list1 label {
+   font-size: 2.42vw;
+   margin-right: 1vw;
+   color: #FF71A0;
+   font-family: "IBM Plex Sans", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+  
+.list2 label {
+  font-size: 2.42vw;
+  margin-right: 2vw;
+  color: #FF71A0;
+  font-family: "IBM Plex Sans", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+.form{
+    width: 51vw;
+    font-size: 4.59vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #FF71A0;
+    stroke-width: 0.1vw;
+    margin-top: 3vw;
+    margin-left: 14vw;
+}
+
+.cross, .cross2 {
+    position: relative;
+    width: 4.83vw;
+    height: 4.83vw;
+    background-repeat: no-repeat;
+    background-image: url(../img/backmenu.svg);
+    background-size: 100%;
+    left: 70vw;
+    top: 7vw;
+    z-index: 115;
+}
+.form_a {
+    font-size: 4.59vw;
+    line-height: 48px;
+    text-align: left;
+    margin-top: 39px;
+    margin-left: 0vw;
+    letter-spacing: -0.04em;
+    color: #FF71A0;
+    width: 62.08vw;
+}
+/* стрелка продолжить */
+.next1{
+    width: 30.4vw;
+    height: 13.42vw;
+    margin-left: 46vw;
+    margin-top: 2vw;
+    position: relative;
+    z-index: 10;
+}
+.next1 img{
+    width: 100%;
+}
+
+.radio-list{
+    width: 26.9vw;
+    /* margin-left: 0vw;
+    margin-top: 0vw; */
+  
+  }
+  .rcustom{
+     position: absolute;
+     z-index: -1;
+     opacity: 0;
+   }
+   /* для элемента label связанного с .custom-radio */
+   .rcustom+label {
+     display: inline-flex;
+     align-items: center;
+     user-select: none;
+   }
+  
+   /* создание в label псевдоэлемента  before со следующими стилями */
+   .rcustom+label::before {
+     content: '';
+     display: inline-block;
+     width: 1em;
+     height: 1em;
+     flex-shrink: 0;
+     flex-grow: 0;
+     border: 0.14vw solid #FF71A0;
+     border-radius: 50%;
+     margin-right: 0.5em;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: 50% 50%;
+   }
+   /* стили при наведении курсора на радио */
+   .rcustom:not(:disabled):not(:checked)+label:hover::before {
+    background-color: #FF71A0;
+    border: 0.14vw solid #FF71A0;
+   }
+   /* стили для активной радиокнопки (при нажатии на неё) */
+  
+   .rcustom:checked+label::before {
+    border-color: #FF71A0;
+    background-color: #FFDCE8;
+    border: 0.14vw solid #FF71A0;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='000000'/%3e%3c/svg%3e");
+   }
+
+   /* вторая часть формы с вводом данных */
+.forma {
+    width: 81.88vw;
+    height: 67.39vw;
+    display: none;
+    background-color: #FFDCE8;
+    border-radius: 11.59vw;
+    position: fixed;
+    top: 59vw;
+    left: 9vw;
+}
+
+.textbut{
+    width: 30.4vw;
+    height: 14.42vw;
+    margin-left: 46vw;
+    margin-top: 17vw;
+    position: relative;
+    transform: rotate(-2deg);
+    background-image: url(../img/product\ plashka.svg);
+    background-size: 100%;
+}
+.textbut h1{
+    font-size: 3.62vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    margin-top: 3.5vw;
+    padding: 3.3vw 4.2vw 1.2vw 6.2vw;
+}
+.form-split {
+    width: 55.97vw;
+    height: 16.46vw;
+    top: 3vw;
+    left: 13.2vw;
+    border-radius: 0.90vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FFDCE8;
+}
+
+input[type='name'],
+input[type="tel"],
+input[type="email"], select {
+    height: 7.86vw;
+    width: 51vw;
+  border: 0.14vw solid #FF71A0;
+  font-size: 2.42vw;
+  line-height: 46px;
+  padding: 0 1.2vw;
+  margin-left: 1.39vw;
+  margin-top: 1vw;
+  outline: none;
+  border-radius: 2vw;
+  appearance: none;
+}
+
+input[type='name']:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus {
+  border: 0.14vw solid #FF71A0;
+}
+/* плашка после  отправки данных */
+.forma_after{
+    display: none;
+    width: 87.64vw;
+    height: 30.09vw;
+    z-index: 15;
+    color: #FF71A0;
+    border-radius: 5.56vw;
+    background-image: url(../img/plashkaafterform.svg);
+    background-size: 100%;
+    position: fixed;
+    padding: 1.39vw;
+    top: calc( 50% - 11.5vh);
+    left: 3.2vw;
+  }
+  .form_a {
+    width: 84.06vw;
+    height: 12.08vw;
+    font-size: 4.59vw;
+    text-align: center;
+    margin-left: 1.5vw;
+    margin-top: 7vw;
+    letter-spacing: -0.04em;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    position: relative;
+    }
+
+}

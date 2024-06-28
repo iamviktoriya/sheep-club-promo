@@ -1,0 +1,370 @@
+.menu{
+    width: 100%;
+    height: 4vw;
+    position: relative;
+    background-color: #ffffff;
+}
+.menu img{
+    width: 16.74vw;
+    height: 2.85vw;
+    left: 41.60vw;
+    top: 0.6vw;
+    position: absolute;
+}
+.burger1{
+    width: 2.78vw;
+    height: 2.01vw;
+    position: relative;
+    left: 2.50vw;
+    top: 1.08vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.burgerbook{
+    width: 2.78vw;
+    height: 0.21vw;
+    position: relative;
+    background-color: #8B85FF;
+    border-radius: 5vw;
+}
+/* плашка с названием страницы */
+.plashka6 h1{
+    font-size: 2.78vw;
+    color: #8B85FF;
+    margin-top: 3.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.plashka6{
+    width: 35.28vw;
+    height: 11.7vw;
+    top: 7vw;
+    left: 62.5vw;
+    position: absolute;
+    transform: rotate(5deg);
+    background-image: url(../img/plashka1.svg);
+    background-size: 100%;
+    transition: .6s;
+    z-index: 20;
+}
+.plashka6:hover{
+    transform: rotate(-5deg);
+}
+
+/* слайдер */
+.slider-container {
+    position: relative;
+    width: 66.94vw;
+    height: 43vw;
+    margin-top: 10vw;
+    margin-left: 17vw;
+    overflow: hidden;
+}
+  
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+  
+.slider img {
+    width: 66.94vw;
+    height: 43vw;
+    object-fit: cover;
+}
+
+/* кнопки */
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 58vw;
+    transform: translateY(-50%);
+    width: 13vw;
+    height: 6.3vw;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.prev-button{
+    left: 35vw;
+    background-image: url(../img/button2.svg);
+    background-size: 100%;
+}
+.next-button{
+    left: 53vw;
+    background-image: url(../img/button1.svg);
+    background-size: 100%;
+}
+
+/* подвал */
+.footerbook3{
+    width: 94.44vw;
+    height: 20.2vw;
+    top: 65vw;
+    left: 3.2vw;
+    overflow: hidden;
+    background-image: url(../img/footerbook.svg);
+    background-size: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footerinfobook{
+    width: 38vw;
+    height: 11.53vw;
+    margin-left: 4.5vw;
+    margin-top: 3vw;
+}
+.footerinfobook p{
+    width: 16.60vw;
+    height: 5.42vw;
+    font-size: 1.46vw;
+    color: #8B85FF;
+}
+.footerinfobook img{
+    width: 16.74vw;
+    height: 2.85vw;
+    margin-top: 3vw;
+}
+.contactsbook{
+    width: 17.57vw;
+    height: 11.53vw;
+    margin-top: 3vw;
+}
+.contactsbook h1{
+    font-size: 2.22vw;
+    color: #8B85FF;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.contactsbook p{
+    width: 14.58vw;
+    height: 7.22vw;
+    font-size: 1.39vw;
+    color: #8B85FF;
+    margin-top: 4vw;
+}
+.letterbook{
+    width: 26.74vw;
+    height: 11.53vw;
+    margin-left: 2vw;
+    margin-top: 3vw;
+}
+.letterbook h1{
+    font-size: 2.22vw;
+    color: #8B85FF;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.inputbook{
+    width: 25.04vw;
+    height: 3.47vw;
+    margin-top: 3vw;
+    padding: 0.2vw 0.2vw 0.2vw 1.2vw;
+    background: #B9C1FF;
+    border-radius: 0.69vw;
+    border: none;
+    box-shadow: 6px 6px 10px #8B85FF;
+    font-size: 0.97vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B85FF;
+    outline-color: #8B85FF;
+}
+
+/* адаптив */
+@media screen and (max-width: 414px){
+    /* подвал */
+.footerbook3{
+    width: 94.44vw;
+    height: 115.13vw;
+    top: 94vw;
+    left: 3.2vw;
+    overflow: hidden;
+    background-image: url(../img/footerbook2.svg);
+    background-size: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.footerinfobook{
+    width: 70.53vw;
+    height: 30.43vw;
+    margin-left: 8vw;
+    margin-top: 8vw;
+}
+.footerinfobook p{
+    width: 43.96vw;
+    height: 14.49vw;
+    font-size: 4.35vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B85FF;
+}
+.footerinfobook img{
+    width: 44.44vw;
+    height: 7.49vw;
+    margin-top: 3vw;
+}
+.contactsbook{
+    width: 46.62vw;
+    height: 30.43vw;
+    margin-left: 8vw;
+    margin-top: 5vw;
+}
+.contactsbook h1{
+    font-size: 5.80vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.contactsbook p{
+    width: 38.65vw;
+    height: 19.32vw;
+    font-size: 3.62vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B85FF;
+    margin-top: 4vw;
+}
+.letterbook{
+    width: 70.53vw;
+    height: 30.43vw;
+    margin-left: 0vw;
+    margin-left: 8vw;
+    margin-top: 5vw;
+}
+.letterbook h1{
+    font-size: 5.80vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.inputbook{
+    width: 69.08vw;
+    height: 9.18vw;
+    margin-top: 3vw;
+    padding: 0.2vw 0.2vw 0.2vw 1.2vw;
+    background: #B9C1FF;
+    border-radius: 1.69vw;
+    border: none;
+    box-shadow: 4px 5px 10px #8B85FF;
+    font-size: 2.66vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B85FF;
+    outline-color: #8B85FF;
+}
+
+/* меню */
+.menu{
+    width: 100%;
+    height: 8vw;
+    position: relative;
+    background-color: #ffffff;
+}
+.menu img{
+    width: 19.74vw;
+    height: 5.85vw;
+    left: 41.60vw;
+    top: 1vw;
+    position: absolute;
+}
+.burger1{
+    width: 4.78vw;
+    height: 3.01vw;
+    position: relative;
+    left: 3.5vw;
+    top: 2.2vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.burgerbook{
+    width: 4.78vw;
+    height: 0.4vw;
+    position: relative;
+    background-color: #8B85FF;
+    border-radius: 5vw;
+}
+/* плашка с названием страницы */
+.plashka6 h1{
+    font-size: 4.78vw;
+    color: #8B85FF;
+    margin-top: 3.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.plashka6{
+    width: 45.28vw;
+    height: 14.7vw;
+    top: 11vw;
+    left: 52.5vw;
+    position: absolute;
+    transform: rotate(5deg);
+    background-image: url(../img/plashka1.svg);
+    background-size: 100%;
+    transition: .6s;
+    z-index: 20;
+}
+
+.slider-container {
+    position: relative;
+    width: 96.94vw;
+    height: 73vw;
+    margin-top: 6vw;
+    margin-left: 2vw;
+    overflow: hidden;
+}
+  
+.slider img {
+    width: 96.94vw;
+    height: 73vw;
+    object-fit: cover;
+}
+/* кнопки */
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 58vw;
+    transform: translateY(-50%);
+    width: 29vw;
+    height: 13.3vw;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.prev-button{
+    left: 23vw;
+    top: 85vw;
+    background-image: url(../img/button2.svg);
+    background-size: 100%;
+}
+.next-button{
+    left: 53vw;
+    top: 85vw;
+    background-image: url(../img/button1.svg);
+    background-size: 100%;
+}
+
+}

@@ -1,0 +1,855 @@
+p{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
+h1{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+h2{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+
+/* первый блок */
+.firstblock{
+    width: 100%;
+    height: 54vw;
+    display: block;
+    position: relative;
+    background-color: #FFDCE8;
+}
+.firstblock img{
+    position: absolute;
+}
+/* маленькие картинки */
+.cupmini{
+    width: 10.42vw;
+    height: 7.92vw;
+    top: 22.06vw;
+    left: 10vw;
+    transform: rotate(-3deg);
+    animation: fly2 8s ease-in-out infinite;
+}
+@keyframes fly2{
+    0% {transform: translateX(0vw) translateY(0vw);}
+    25% {transform: translateX(1vw) translateY(1.8vw) rotate(15deg);}
+    50% {transform: translateX(-1.8vw) translateY(3.6vw);}
+    75% {transform: translateX(-3.6vw) translateY(-2vw)rotate(-12deg) ;}
+    100% {transform: translateX(0vw) translateY(0vw);}
+}
+
+.housemini{
+    width: 8.33vw;
+    height: 11.81vw;
+    top: 6.71vw;
+    left: 15vw;
+    transform: rotate(14deg);
+    animation: fly3 8s ease-in-out infinite;
+}
+@keyframes fly3{
+    0% {transform: translateX(0vw) translateY(0vw);}
+    20% {transform: translateX(-1vw) translateY(1.3vw) rotate(-9deg);}
+    45% {transform: translateX(1.8vw) translateY(2.8vw);}
+    75% {transform: translateX(3.6vw) translateY(1.5vw)rotate(7deg) ;}
+    100% {transform: translateX(0vw) translateY(0vw);}
+}
+
+.bagmini{
+    width: 10.69vw;
+    height: 14.44vw;
+    top: 11vw;
+    left: 70vw;
+    transform: rotate(-32deg);
+    animation: fly4 8s ease-in-out infinite;
+}
+/* .nym{
+    width: 20vw;
+    height: 8.33vw;
+    top: 41.06vw;
+    left: 30vw;
+    transform: rotate(-21deg);
+    animation: fly4 8s ease-in-out infinite;
+} */
+@keyframes fly4{
+    0% {transform: translateX(0vw) translateY(0vw);}
+    20% {transform: translateX(1.4vw) translateY(-1vw) rotate(8deg);}
+    45% {transform: translateX(2vw) translateY(1vw);}
+    75% {transform: translateX(-1vw) translateY(1.5vw)rotate(-7deg) ;}
+    100% {transform: translateX(0vw) translateY(0vw);}
+}
+
+.postermini{
+    width: 8.19vw;
+    height: 12.36vw;
+    top: 37.5vw;
+    left: 18.68vw;
+    transform: rotate(-18deg);
+    animation: fly4 8s ease-in-out infinite;
+}
+.sheep{
+    width: 17.36vw;
+    height: 17.36vw;
+    top: 35.67vw;
+    left: 56vw;
+    transform: rotate(27deg);
+    animation: fly2 8s ease-in-out infinite;
+}
+.son{
+    top: 28.25vw;
+    left: 70vw;
+    transform: rotate(-9deg);
+    animation: fly3 8s ease-in-out infinite;
+}
+.vebposter1 img{
+    top: 25vw;
+    left: 80vw;
+    width: 100%;
+    transform: rotate(-9deg);
+    animation: fly3 8s ease-in-out infinite;
+}
+.vebposter1 img{
+    width: 11.60vw;
+    height: 11.60vw;
+}
+.vebposter2 img{
+    top: 35vw;
+    left: 72vw;
+    width: 100%;
+    transform: rotate(-9deg);
+    animation: fly4 8s ease-in-out infinite;
+}
+.vebposter2 img{
+    width: 10.83vw;
+    height: 11.46vw;
+}
+
+/* верхнее меню */
+.menu{
+    width: 100%;
+    height: 4vw;
+    position: relative;
+    background-color: #ffffff;
+}
+.menu img{
+    width: 16.74vw;
+    height: 2.85vw;
+    left: 41.60vw;
+    top: 0.6vw;
+    position: absolute;
+}
+.burger1{
+    width: 2.78vw;
+    height: 2.01vw;
+    position: relative;
+    left: 2.50vw;
+    top: 1.08vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.burger{
+    width: 2.78vw;
+    height: 0.21vw;
+    position: relative;
+    background-color: #FF71A0;
+    border-radius: 5vw;
+}
+
+
+/* лого */
+.biglogo{
+    width: 53.13vw;
+    height: 37.85vw;
+}
+.biglogo img{
+    width: 53.13vw;
+    height: 37.85vw;
+    left: 23.75vw;
+    top: 4vw;
+    position: relative;
+    animation: fly 5s ease-in-out infinite;
+}
+@keyframes fly{
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-1vw);}
+    100% {transform: translateY(0vw);}
+}
+
+/* второй блок */
+.secondblock{
+    width: 100%;
+    height: 117vw;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    z-index: 20;
+    background-color: #C8CEFF;
+}
+.onas{
+    width: 100%;
+    height: 30.69vw;
+}
+.text1{
+    width: 75.56vw;
+    height: 18.06vw;
+    top: 5vw;
+    left: 12vw;
+    position: relative;
+}
+.flowmini{
+    width: 5vw;
+    height: 6vw;
+    top: 7.4vw;
+    left: 80vw;
+    position: absolute;
+}
+.flowmini:hover{
+    cursor: pointer;
+    animation: rubber 1.5s infinite;
+}
+.heartmini{
+    width: 5vw;
+    height: 5vw;
+    top: 15vw;
+    left: 48vw;
+    position: absolute;
+}
+.heartmini:hover{
+    cursor: pointer;
+    animation: rubber 1.5s infinite;
+}
+.sheepmini{
+    width: 5.38vw;
+    height: 5.58vw;
+    top: 11vw;
+    left: 68vw;
+    position: absolute;
+}
+.sheepmini:hover{
+    cursor: pointer;
+    animation: rubber 1.5s infinite;
+}
+@keyframes rubber{
+    0% {transform: scale3d(1, 1, 1);}
+    25% {transform: scale3d(1.15, 0.85, 1);}
+    50% {transform: scale3d(0.8, 1.05, 1);}
+    75% {transform: scale3d(1.05, 0.9, 1);}
+    100% {transform: scale3d(1, 1, 1);}
+}
+/* блок про книгу */
+.bookblock{
+    width: 100%;
+    height: 22.19vw;
+}
+.bookmini{
+    top: 32vw;
+    left: 10vw;
+    width: 22.43vw;
+    height: 27.99vw;
+    position: absolute;
+}
+.plashka1 h1{
+    font-size: 2.78vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    margin-top: 3.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.plashka1{
+    width: 35.28vw;
+    height: 11.7vw;
+    top: 30vw;
+    left: 62.5vw;
+    position: absolute;
+    transform: rotate(5deg);
+    background-image: url(../img/plashka1.svg);
+    background-size: 100%;
+    transition: .6s;
+}
+.plashka1:hover{
+    transform: rotate(-5deg);
+}
+.bookblock p{
+    width: 53.33vw;
+    height: 12.50vw;
+    margin-top: 11vw;
+    margin-left: 40vw;
+    font-size: 1.94vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4B4B4B;
+    z-index: 20;
+}
+.arrow{
+    width: 14.17vw;
+    height: 6.52vw;
+    top: 51vw;
+    left: 80.5vw;
+    position: absolute;
+    background-image: url(../img/button1.svg);
+    background-size: 100%;
+    transition: .5s;
+}
+.arrow:hover{
+    transform: translateY(-0.5vw);
+}
+.flowmini2{
+    width: 7.36vw;
+    height: 7.36vw;
+    top: 38vw;
+    left: 37vw;
+    position: absolute;
+    z-index: 1;
+}
+.flowmini2:hover{
+    cursor: pointer;
+    animation: rubber 1.5s infinite;
+}
+/* блок с отзывами */
+.reviews{
+    width: 100%;
+    height: 57.22vw;
+}
+.plashka2 h1{
+    font-size: 2.78vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    margin-top: 3.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.plashka2{
+    width: 35.28vw;
+    height: 11.7vw;
+    top: 67vw;
+    left: 2.5vw;
+    position: absolute;
+    transform: rotate(-5deg);
+    background-image: url(../img/plashka1.svg);
+    background-size: 100%;
+    transition: .6s;
+    z-index: 10;
+}
+.plashka2:hover{
+    transform: rotate(5deg);
+}
+
+/* первая карточка отзыв */
+.cardreview3{
+    width: 22.15vw;
+    height: 26vw;
+    left: 0vw;
+    top: 6vw;
+    position: relative;
+    cursor: pointer;
+}
+
+.cardreview3 img{
+    width: 100%;
+}
+.cardreview3 h1{
+    font-size: 1.74vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    margin-top: 3.5vw;
+    stroke: #8B85FF;
+    stroke-width: 0.07vw;
+}
+.cardreview3 p{
+    width: 15.36vw;
+    height: 5vw;
+    margin-top: 1vw;
+    font-size: 0.97vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B85FF;
+}
+.review3front{
+    width: 22.15vw;
+    height: 26vw;
+    top: 0vw;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+    animation: turn 1s infinite; 
+}
+.review3back{
+    width: 22.15vw;
+    height: 26vw;
+    top: 0vw;
+    position: absolute;
+    background-image: url(../img/review1back.svg);
+    background-size: 100%;
+    backface-visibility: hidden;
+    transition: 1s;
+    transform: rotateY(180deg);
+}
+.review3text{
+    width: 17.36vw;
+    height: 17.36vw;
+    margin-top: 6vw;
+    margin-left: 2.8vw;
+}
+
+.cardreview3:hover .review3front {transform: rotateY(180deg);}
+.cardreview3:hover .review3back {transform: rotateY(360deg);}
+
+/* карточка  по центру*/
+.cardreview1{
+    width: 33.40vw;
+    height: 39.03vw;
+    left: 0vw;
+    position: relative;
+    cursor: pointer;
+}
+.cardreviews{
+    width: 87.22vw;
+    height: 39.03vw;
+    margin-top: 10vw;
+    margin-left: 7vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    cursor: pointer;
+    position: absolute;
+}
+.cardreview1 img{
+    width: 100%;
+}
+.cardreview1 h1{
+    font-size: 2.64vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    margin-top: 3.5vw;
+    stroke: #8B85FF;
+    stroke-width: 0.15vw;
+}
+.cardreview1 p{
+    width: 26.18vw;
+    height: 7.78vw;
+    margin-top: 1vw;
+    font-size: 1.46vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B85FF;
+}
+.review1front{
+    width: 33.40vw;
+    height: 39.03vw;
+    top: 0vw;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+    animation: turn 1s infinite; 
+}
+.review1back{
+    width: 33.40vw;
+    height: 39.03vw;
+    top: 0vw;
+    position: absolute;
+    background-image: url(../img/review1back.svg);
+    background-size: 100%;
+    backface-visibility: hidden;
+    transition: 1s;
+    transform: rotateY(180deg);
+}
+.review1text{
+    width: 26.18vw;
+    height: 26.11vw;
+    margin-top: 8vw;
+    margin-left: 4vw;
+}
+
+.cardreview1:hover .review1front {transform: rotateY(180deg);}
+.cardreview1:hover .review1back {transform: rotateY(360deg);}
+
+/* третья карточка отзыв */
+.cardreview2{
+    width: 22.15vw;
+    height: 26vw;
+    left: 24vw;
+    left: 0vw;
+    top: 6vw;
+    position: relative;
+    cursor: pointer;
+}
+
+.cardreview2 img{
+    width: 100%;
+}
+.cardreview2 h1{
+    font-size: 1.74vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    margin-top: 3.5vw;
+    stroke: #8B85FF;
+    stroke-width: 0.07vw;
+}
+.cardreview2 p{
+    width: 15.36vw;
+    height: 5vw;
+    margin-top: 1vw;
+    font-size: 0.97vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B85FF;
+}
+.review2front{
+    width: 22.15vw;
+    height: 26vw;
+    top: 0vw;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+    animation: turn 1s infinite; 
+}
+.review2back{
+    width: 22.15vw;
+    height: 26vw;
+    top: 0vw;
+    position: absolute;
+    background-image: url(../img/review1back.svg);
+    background-size: 100%;
+    backface-visibility: hidden;
+    transition: 1s;
+    transform: rotateY(180deg);
+}
+.review2text{
+    width: 17.36vw;
+    height: 17.36vw;
+    margin-top: 6vw;
+    margin-left: 2.8vw;
+}
+
+.cardreview2:hover .review2front {transform: rotateY(180deg);}
+.cardreview2:hover .review2back {transform: rotateY(360deg);}
+
+/* третий блок */
+.thirdblock{
+    width: 100%;
+    height: 108.51vw;
+    position: relative;
+    overflow: hidden;
+    background: rgb(255,220,232);
+    background: linear-gradient(180deg, rgba(255,220,232,1) 0%, rgba(254,170,198,1) 100%);
+}
+.plashka3 h1{
+    font-size: 2.78vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    margin-top: 3.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    stroke: #FF71A0;
+    stroke-width: 0.15vw;
+}
+.plashka3{
+    width: 35.28vw;
+    height: 11.7vw;
+    top: 1vw;
+    left: 62.5vw;
+    position: absolute;
+    transform: rotate(6deg);
+    background-image: url(../img/plashka2.svg);
+    background-size: 100%;
+    transition: .6s;
+    z-index: 10;
+}
+.plashka3:hover{
+    transform: rotate(-6deg);
+}
+
+/* карточки с товарами */
+.shopline{
+    width: 94.44vw;
+    height: 37.15vw;
+    top: 9vw;
+    left: 3.2vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* ловец снов */
+.product1_main{
+    width: 30.28vw;
+    height: 31vw;
+    top: 3vw;
+    position: relative;
+    cursor: pointer;
+}
+.product1back h1{
+    font-size: 2.22vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    margin-top: 3.5vw;
+    stroke: #FF71A0;
+    stroke-width: 0.15vw;
+}
+.product1text p{
+    width: 19.35vw;
+    height: 6.46vw;
+    margin-top: 1vw;
+    font-size: 1.46vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FF71A0;
+}
+.product1text{
+    width: 20.35vw;
+    height: 15vw;
+    margin-top: 6vw;
+    margin-left: 4vw;
+}
+/* кнопка заказать */
+.productplashka{
+    width: 14.17vw;
+    height: 6.49vw;
+    top: 20vw;
+    left: 12vw;
+    position: absolute;
+    transform: rotate(-8deg);
+    background-image: url(../img/product\ plashka.svg);
+    background-size: 100%;
+}
+.product1back h2{
+    font-size: 1.94vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+}
+.productplashka h2{
+    font-size: 1.94vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    margin-top: 1.2vw;
+    margin-left: 2.3vw;
+}
+.product1front{
+    width: 30.28vw;
+    height: 31vw;
+    top: 0vw;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+    animation: turn 1s infinite;
+}
+.product1front img{
+    width: 100%;
+}
+.product1back{
+    width: 30.28vw;
+    height: 32vw;
+    top: 0vw;
+    position: absolute;
+    background-image: url(../img/product\ back.svg);
+    background-size: 100%;
+    backface-visibility: hidden;
+    transition: 1s;
+    transform: rotateY(180deg);
+}
+.product1_main:hover .product1front {transform: rotateY(180deg);}
+.product1_main:hover .product1back {transform: rotateY(360deg);}
+
+/* вторая карточка сумка */
+.product2_main{
+    width: 30.28vw;
+    height: 31vw;
+    top: 0vw;
+    position: relative;
+    cursor: pointer;
+}
+.product2front{
+    width: 30.28vw;
+    height: 31vw;
+    top: 0vw;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+    animation: turn 1s infinite;
+}
+.product2front img{
+    width: 100%;
+}
+.product2_main:hover .product2front {transform: rotateY(180deg);}
+.product2_main:hover .product1back {transform: rotateY(360deg);}
+
+/* третья карточка кружки*/
+.product3_main{
+    width: 30.28vw;
+    height: 31vw;
+    top: 3vw;
+    position: relative;
+    cursor: pointer;
+}
+.product3front{
+    width: 30.28vw;
+    height: 31vw;
+    top: 0vw;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+    animation: turn 1s infinite;
+}
+.product3front img{
+    width: 100%;
+}
+.product3_main:hover .product3front {transform: rotateY(180deg);}
+.product3_main:hover .product1back {transform: rotateY(360deg);}
+
+/* подвал */
+.footer{
+    width: 94.44vw;
+    height: 20.2vw;
+    top: 88vw;
+    left: 3.2vw;
+    overflow: hidden;
+    background-image: url(../img/footer.svg);
+    background-size: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footerinfo{
+    width: 38vw;
+    height: 11.53vw;
+    margin-left: 4.5vw;
+    margin-top: 3vw;
+}
+.footerinfo p{
+    width: 16.60vw;
+    height: 5.42vw;
+    font-size: 1.46vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FF71A0;
+}
+.footerinfo img{
+    width: 16.74vw;
+    height: 2.85vw;
+    margin-top: 3vw;
+}
+.contacts{
+    width: 17.57vw;
+    height: 11.53vw;
+    margin-top: 3vw;
+}
+.contacts h1{
+    font-size: 2.22vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    stroke: #FF71A0;
+    stroke-width: 0.15vw;
+}
+.contacts p{
+    width: 14.58vw;
+    height: 7.22vw;
+    font-size: 1.39vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FF71A0;
+    margin-top: 4vw;
+}
+.letter{
+    width: 26.74vw;
+    height: 11.53vw;
+    margin-left: 2vw;
+    margin-top: 3vw;
+}
+.letter h1{
+    font-size: 2.22vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF71A0;
+    stroke: #FF71A0;
+    stroke-width: 0.15vw;
+}
+.input{
+    width: 25.04vw;
+    height: 3.47vw;
+    margin-top: 3vw;
+    padding: 0.2vw 0.2vw 0.2vw 1.2vw;
+    background: #FFDCE8;
+    border-radius: 0.69vw;
+    border: none;
+    box-shadow: 8px 10px 20px #FF71A0;
+    font-size: 0.97vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FF71A0;
+    outline-color: #FF71A0;
+}
+
+/* летающие овцы */
+#canvas-target{
+    width: 103.93vw;
+    overflow-x: hidden;
+    display: block;
+    margin-left: -2vw;
+    margin-right: -2vw;
+    padding: 0vw;
+}
+.positioning { 
+    display: none;
+    position: relative;
+}
+.a-image{
+    position: absolute;
+    width: 15vw; 
+    height: 15vw; 
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+.positioning img{
+    width: 100%;
+}

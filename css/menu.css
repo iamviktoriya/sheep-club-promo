@@ -1,0 +1,233 @@
+.blockmenu{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #ffffff;
+}
+.blockmenu a{
+    text-decoration: none;
+}
+.blockmenu p{
+    top: 9vw;
+    left: 0vw;
+    margin-top: 1.5vw;
+    font-size: 3.75vw;
+    position: relative;
+    text-align: center;
+}
+.backmenu{
+    width: 2.01vw;
+    height: 2.01vw;
+    left: 2.50vw;
+    top: 1.08vw;
+    position: relative;
+}
+.backmenu img{
+    width: 2.01vw;
+    height: 2.01vw;
+}
+.item1 p{
+    color: #FF71A0;
+    transition: .3s;
+}
+.item2 p{
+    color: #8B85FF;
+    transition: .3s;
+}
+.item3 p{
+    color: #FFA0C0;
+    transition: .3s;
+}
+.item4 p{
+    color: #FF71A0;
+    transition: .3s;
+}
+.item5 p{
+    color: #8B85FF;
+    transition: .5s;
+}
+.item1 p:hover{
+    font-size: 4.72vw;
+}
+.item2 p:hover{
+    font-size: 4.72vw;
+}
+.item3 p:hover{
+    font-size: 4.72vw;
+}
+.item4 p:hover{
+    font-size: 4.72vw;
+}
+.item5 p:hover{
+    font-size: 4.72vw;
+}
+
+/* объекты, появляющиеся при наведении на пункты меню */
+/* главная */
+.heartmenu2{
+    position: absolute;
+    top: 12vw;
+    left: 34vw;
+    width: 6.92vw;
+    height: 5.11vw;
+    display: none;
+    animation: flymenu 3.5s ease-in-out infinite;
+}
+.sheepmenu{
+      position: absolute;
+      top: 5vw;
+      left: 62vw;
+      width: 20vw;
+      height: 20vw;
+      display: none; 
+      animation: fly 4s ease-in-out infinite;
+}
+/* @keyframes jumpmenu{
+    0% {top: 0vw;}
+    50%{top: -6vw;}
+    100% {top: 0vw;}
+} */
+
+/* события */
+.flowmenu{
+  position: absolute;
+  top: 16vw;
+  left: 56vw;
+  width: 8.96vw;
+  height: 8.19vw;
+  display: none;
+  animation: flymenu 3.5s linear infinite;
+}
+@keyframes flymenu{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.poster1menu{
+    position: absolute;
+    top: 13vw;
+    left: 65vw;
+    width: 13.19vw;
+    height: 19.79vw;
+    display: none; 
+    animation: fly 4s ease-in-out infinite;
+}
+.poster2menu{
+    position: absolute;
+    top: 13vw;
+    left: 24vw;
+    width: 13.19vw;
+    height: 19.79vw;
+    display: none; 
+    animation: fly 4s ease-in-out infinite;
+}
+/* интерьер */
+.flowmenu2{
+    position: absolute;
+    top: 21.5vw;
+    left: 35vw;
+    width: 5.53vw;
+    height: 6.57vw;
+    display: none;
+    animation: fly 3.5s ease-in-out infinite;
+}
+.minisheephouse1{
+      position: absolute;
+      top: 17vw;
+      left: 70vw;
+      width: 18.19vw;
+      height: 18.19vw;
+      display: none; 
+      animation: fly 4s ease-in-out infinite;
+}
+.minisheephouse2{
+      position: absolute;
+      top: 17vw;
+      left: 15vw;
+      width: 18.19vw;
+      height: 18.19vw;
+      display: none; 
+      animation: fly 4s ease-in-out infinite;
+}
+/* магазин */
+.heartmenu{
+    position: absolute;
+    top: 28vw;
+    left: 56vw;
+    width: 6.92vw;
+    height: 5.11vw;
+    display: none;
+    animation: flymenu 3.5s ease-in-out infinite;
+}
+.cupmenu{
+    position: absolute;
+    top: 27.5vw;
+    left: 22vw;
+    width: 13.28vw;
+    height: 9.60vw;
+    display: none; 
+    animation: fly 4s ease-in-out infinite;
+}
+.bagmenu{
+    position: absolute;
+    top: 23vw;
+    left: 68vw;
+    width: 12.36vw;
+    height: 16.67vw;
+    display: none; 
+    rotate: 10deg;
+    animation: fly 4s ease-in-out infinite;
+}
+/* статьи */
+.flowmenu3{
+    position: absolute;
+    top: 32vw;
+    left: 38.5vw;
+    width: 8.96vw;
+    height: 8.19vw;
+    display: none;
+    animation: flymenu 3.5s linear infinite;
+}
+.sheepmenu1{
+    position: absolute;
+    top: 30vw;
+    left: 24vw;
+    width: 11.93vw;
+    height: 11.93vw;
+    display: none; 
+    animation: fly 4s ease-in-out infinite;
+}
+.sheepmenu2{
+    position: absolute;
+    top: 30vw;
+    left: 66vw;
+    width: 11.93vw;
+    height: 11.93vw;
+    display: none; 
+    animation: fly 4s ease-in-out infinite;
+}
+
+/* адаптив */
+@media screen and (max-width: 414px){
+    .blockmenu p {
+        top: 15vw;
+        left: 0vw;
+        margin-top: 4.5vw;
+        font-size: 8.75vw;
+        position: relative;
+        text-align: center;
+    }
+    .backmenu img {
+        width: 8.01vw;
+        height: 7.01vw;
+    }
+    .backmenu {
+        width: 2.01vw;
+        height: 2.01vw;
+        left: 5.5vw;
+        top: 6.08vw;
+        position: relative;
+    }
+}
